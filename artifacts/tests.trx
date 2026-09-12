@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="97ce669c-775a-4807-a07d-9bdd15fb0d1b" name="toxik@MSI 2026-09-11 22:04:46" runUser="MSI\toxik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-11T22:04:46.3647537-06:00" queuing="2026-09-11T22:04:46.3647542-06:00" start="2026-09-11T22:04:44.4901208-06:00" finish="2026-09-11T22:04:46.5710189-06:00" />
+  <TestSettings name="default" id="058772d8-d996-4658-9d1d-ffc800f353c6">
+    <Deployment runDeploymentRoot="toxik_MSI_2026-09-11_22_04_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ad868aac-cc1e-42da-9820-86f81728f3fb" testId="77f29f85-7fbf-73f7-ba26-d52d7e8b86b4" testName="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;   &quot;, expected: &quot;Hello World&quot;)" computerName="MSI" duration="00:00:00.0000113" startTime="2026-09-11T22:04:45.6842040-06:00" endTime="2026-09-11T22:04:45.6843158-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad868aac-cc1e-42da-9820-86f81728f3fb" />
+    <UnitTestResult executionId="bdeea421-7137-438d-bbab-d00cad050d54" testId="e4964f30-dd5e-081b-485a-adf4f502057b" testName="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: null, expected: &quot;Hello World&quot;)" computerName="MSI" duration="00:00:00.0000068" startTime="2026-09-11T22:04:45.6848325-06:00" endTime="2026-09-11T22:04:45.6849506-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdeea421-7137-438d-bbab-d00cad050d54" />
+    <UnitTestResult executionId="8ae5a665-27a9-4cb7-bcaa-dd1d70401ee9" testId="f696e0df-1a43-8dac-3bcc-292e9a3b2d9b" testName="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;María&quot;, expected: &quot;Hello María&quot;)" computerName="MSI" duration="00:00:00.0005248" startTime="2026-09-11T22:04:45.6827426-06:00" endTime="2026-09-11T22:04:45.6829380-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ae5a665-27a9-4cb7-bcaa-dd1d70401ee9" />
+    <UnitTestResult executionId="d1940463-228b-41c4-982b-2c7cddc8f5e0" testId="8146b177-666d-e605-9111-cae30d2d8535" testName="HelloWorld.Tests.GreetingTests.Api_accepts_a_name_at_the_length_limit" computerName="MSI" duration="00:00:00.0026043" startTime="2026-09-11T22:04:46.4553379-06:00" endTime="2026-09-11T22:04:46.4580862-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1940463-228b-41c4-982b-2c7cddc8f5e0" />
+    <UnitTestResult executionId="28a4e17c-db60-41ba-b4cd-164e03228baa" testId="2c19ad41-79da-bf21-ebfe-1a2c36bdef49" testName="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;&quot;, expected: &quot;Hello World&quot;)" computerName="MSI" duration="00:00:00.0086292" startTime="2026-09-11T22:04:45.6487706-06:00" endTime="2026-09-11T22:04:45.6670312-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28a4e17c-db60-41ba-b4cd-164e03228baa" />
+    <UnitTestResult executionId="303b36e2-cb07-4108-945a-4d001da156e4" testId="4874b0a7-dd7b-33c5-819e-ebb15e638b0a" testName="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=%20Ada%20&quot;, expected: &quot;Hello Ada&quot;)" computerName="MSI" duration="00:00:00.5866702" startTime="2026-09-11T22:04:45.6869529-06:00" endTime="2026-09-11T22:04:46.2600775-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="303b36e2-cb07-4108-945a-4d001da156e4" />
+    <UnitTestResult executionId="3808bfe5-fc3f-41de-ba49-48ec5297a1af" testId="2f6cad38-d23a-3dd4-720a-4b22494d4122" testName="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=%20%20%20&quot;, expected: &quot;Hello World&quot;)" computerName="MSI" duration="00:00:00.0074991" startTime="2026-09-11T22:04:46.2611923-06:00" endTime="2026-09-11T22:04:46.2690621-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3808bfe5-fc3f-41de-ba49-48ec5297a1af" />
+    <UnitTestResult executionId="553635bc-dad7-48fc-8685-1056fa9a6830" testId="792d1e12-9484-acb5-14cd-33fc2bda6965" testName="HelloWorld.Tests.GreetingTests.Home_renders_hello_world_with_MudBlazor_and_WebAssembly_bootstrap" computerName="MSI" duration="00:00:00.1690508" startTime="2026-09-11T22:04:46.3195727-06:00" endTime="2026-09-11T22:04:46.4551239-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="553635bc-dad7-48fc-8685-1056fa9a6830" />
+    <UnitTestResult executionId="5d64b0ad-5f34-468d-830b-4fd243652696" testId="801da55c-3b04-63e0-cf71-fb47552d370e" testName="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;  Ada  &quot;, expected: &quot;Hello Ada&quot;)" computerName="MSI" duration="00:00:00.0000196" startTime="2026-09-11T22:04:45.6844896-06:00" endTime="2026-09-11T22:04:45.6845632-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d64b0ad-5f34-468d-830b-4fd243652696" />
+    <UnitTestResult executionId="3e462388-583a-48db-8aa5-1e3b59e1146a" testId="0572a578-c338-b2dc-c325-e2a1ec5fef9a" testName="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=A%26B&quot;, expected: &quot;Hello A&amp;B&quot;)" computerName="MSI" duration="00:00:00.0014788" startTime="2026-09-11T22:04:46.2713662-06:00" endTime="2026-09-11T22:04:46.2731258-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e462388-583a-48db-8aa5-1e3b59e1146a" />
+    <UnitTestResult executionId="4242247a-a164-47ee-bc8b-62fd468b5e4b" testId="b47bc9fc-57ab-bee1-510e-6486c65ac36e" testName="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting&quot;, expected: &quot;Hello World&quot;)" computerName="MSI" duration="00:00:00.0017434" startTime="2026-09-11T22:04:46.2692396-06:00" endTime="2026-09-11T22:04:46.2712119-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4242247a-a164-47ee-bc8b-62fd468b5e4b" />
+    <UnitTestResult executionId="26fe29fb-0bb3-48e8-8509-e6d907c1d9b2" testId="c828fb6c-4dd2-280f-1632-381c9172065e" testName="HelloWorld.Tests.GreetingTests.Api_rejects_names_over_40_characters" computerName="MSI" duration="00:00:00.0104041" startTime="2026-09-11T22:04:46.3188395-06:00" endTime="2026-09-11T22:04:46.3189848-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26fe29fb-0bb3-48e8-8509-e6d907c1d9b2" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;&quot;, expected: &quot;Hello World&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="2c19ad41-79da-bf21-ebfe-1a2c36bdef49">
+      <Execution id="28a4e17c-db60-41ba-b4cd-164e03228baa" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Create_normalizes_names_and_defaults_to_world" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: null, expected: &quot;Hello World&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="e4964f30-dd5e-081b-485a-adf4f502057b">
+      <Execution id="bdeea421-7137-438d-bbab-d00cad050d54" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Create_normalizes_names_and_defaults_to_world" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=%20Ada%20&quot;, expected: &quot;Hello Ada&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="4874b0a7-dd7b-33c5-819e-ebb15e638b0a">
+      <Execution id="303b36e2-cb07-4108-945a-4d001da156e4" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_returns_expected_greeting" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=%20%20%20&quot;, expected: &quot;Hello World&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="2f6cad38-d23a-3dd4-720a-4b22494d4122">
+      <Execution id="3808bfe5-fc3f-41de-ba49-48ec5297a1af" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_returns_expected_greeting" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting?name=A%26B&quot;, expected: &quot;Hello A&amp;B&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="0572a578-c338-b2dc-c325-e2a1ec5fef9a">
+      <Execution id="3e462388-583a-48db-8aa5-1e3b59e1146a" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_returns_expected_greeting" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_accepts_a_name_at_the_length_limit" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="8146b177-666d-e605-9111-cae30d2d8535">
+      <Execution id="d1940463-228b-41c4-982b-2c7cddc8f5e0" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_accepts_a_name_at_the_length_limit" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;María&quot;, expected: &quot;Hello María&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="f696e0df-1a43-8dac-3bcc-292e9a3b2d9b">
+      <Execution id="8ae5a665-27a9-4cb7-bcaa-dd1d70401ee9" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Create_normalizes_names_and_defaults_to_world" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;  Ada  &quot;, expected: &quot;Hello Ada&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="801da55c-3b04-63e0-cf71-fb47552d370e">
+      <Execution id="5d64b0ad-5f34-468d-830b-4fd243652696" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Create_normalizes_names_and_defaults_to_world" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_rejects_names_over_40_characters" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="c828fb6c-4dd2-280f-1632-381c9172065e">
+      <Execution id="26fe29fb-0bb3-48e8-8509-e6d907c1d9b2" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_rejects_names_over_40_characters" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Home_renders_hello_world_with_MudBlazor_and_WebAssembly_bootstrap" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="792d1e12-9484-acb5-14cd-33fc2bda6965">
+      <Execution id="553635bc-dad7-48fc-8685-1056fa9a6830" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Home_renders_hello_world_with_MudBlazor_and_WebAssembly_bootstrap" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Api_returns_expected_greeting(url: &quot;/api/greeting&quot;, expected: &quot;Hello World&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="b47bc9fc-57ab-bee1-510e-6486c65ac36e">
+      <Execution id="4242247a-a164-47ee-bc8b-62fd468b5e4b" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Api_returns_expected_greeting" />
+    </UnitTest>
+    <UnitTest name="HelloWorld.Tests.GreetingTests.Create_normalizes_names_and_defaults_to_world(name: &quot;   &quot;, expected: &quot;Hello World&quot;)" storage="c:\users\toxik\downloads\cstack\tests\helloworld.tests\bin\debug\net10.0\helloworld.tests.dll" id="77f29f85-7fbf-73f7-ba26-d52d7e8b86b4">
+      <Execution id="ad868aac-cc1e-42da-9820-86f81728f3fb" />
+      <TestMethod codeBase="C:\Users\toxik\Downloads\cstack\tests\HelloWorld.Tests\bin\Debug\net10.0\HelloWorld.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="HelloWorld.Tests.GreetingTests" name="Create_normalizes_names_and_defaults_to_world" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="77f29f85-7fbf-73f7-ba26-d52d7e8b86b4" executionId="ad868aac-cc1e-42da-9820-86f81728f3fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4964f30-dd5e-081b-485a-adf4f502057b" executionId="bdeea421-7137-438d-bbab-d00cad050d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f696e0df-1a43-8dac-3bcc-292e9a3b2d9b" executionId="8ae5a665-27a9-4cb7-bcaa-dd1d70401ee9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8146b177-666d-e605-9111-cae30d2d8535" executionId="d1940463-228b-41c4-982b-2c7cddc8f5e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c19ad41-79da-bf21-ebfe-1a2c36bdef49" executionId="28a4e17c-db60-41ba-b4cd-164e03228baa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4874b0a7-dd7b-33c5-819e-ebb15e638b0a" executionId="303b36e2-cb07-4108-945a-4d001da156e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f6cad38-d23a-3dd4-720a-4b22494d4122" executionId="3808bfe5-fc3f-41de-ba49-48ec5297a1af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="792d1e12-9484-acb5-14cd-33fc2bda6965" executionId="553635bc-dad7-48fc-8685-1056fa9a6830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="801da55c-3b04-63e0-cf71-fb47552d370e" executionId="5d64b0ad-5f34-468d-830b-4fd243652696" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0572a578-c338-b2dc-c325-e2a1ec5fef9a" executionId="3e462388-583a-48db-8aa5-1e3b59e1146a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b47bc9fc-57ab-bee1-510e-6486c65ac36e" executionId="4242247a-a164-47ee-bc8b-62fd468b5e4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c828fb6c-4dd2-280f-1632-381c9172065e" executionId="26fe29fb-0bb3-48e8-8509-e6d907c1d9b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.15]   Discovering: HelloWorld.Tests&#xD;
+[xUnit.net 00:00:00.23]   Discovered:  HelloWorld.Tests&#xD;
+[xUnit.net 00:00:00.27]   Starting:    HelloWorld.Tests&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: C:\Users\toxik\Downloads\cstack\src\HelloWorld&#xD;
+dbug: HelloWorld.Services.GreetingService[0]&#xD;
+      Greeting created. Used default: False; name length: 3&#xD;
+dbug: HelloWorld.Services.GreetingService[0]&#xD;
+      Greeting created. Used default: True; name length: 5&#xD;
+dbug: HelloWorld.Services.GreetingService[0]&#xD;
+      Greeting created. Used default: True; name length: 5&#xD;
+dbug: HelloWorld.Services.GreetingService[0]&#xD;
+      Greeting created. Used default: False; name length: 3&#xD;
+dbug: HelloWorld.Services.GreetingService[0]&#xD;
+      Greeting created. Used default: False; name length: 40&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[xUnit.net 00:00:01.14]   Finished:    HelloWorld.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

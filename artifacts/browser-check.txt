@@ -1,0 +1,5 @@
+2026-09-12T04:06:42.410Z
+PASS: Hello World rendered with MudBlazor; the WebAssembly router started.
+PASS: desktop shows only Hello World, centered in black at 32px, without overflow.
+PASS: mobile shows only Hello World, centered in black at 32px, without overflow.
+PASS: No unhandled browser exceptions.

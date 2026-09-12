@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug ASP.NET greeting (port 5081)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build HelloWorld",
+      "program": "${workspaceFolder}/src/HelloWorld/bin/Debug/net10.0/HelloWorld.dll",
+      "cwd": "${workspaceFolder}/src/HelloWorld",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "env": {
+        "DOTNET_ROOT": "${workspaceFolder}/.dotnet",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5081"
+      },
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(http://\\S+)",
+        "uriFormat": "%s"
+      }
+    }
+  ]
+}

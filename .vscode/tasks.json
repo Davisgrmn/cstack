@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build HelloWorld",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/dotnet.ps1", "build", "${workspaceFolder}/src/HelloWorld/HelloWorld.csproj", "/m:1", "/nr:false"],
+      "problemMatcher": "$msCompile",
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "test HelloWorld",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/dotnet.ps1", "test", "${workspaceFolder}/HelloWorld.slnx", "/m:1", "/nr:false"],
+      "problemMatcher": "$msCompile",
+      "group": "test"
+    }
+  ]
+}

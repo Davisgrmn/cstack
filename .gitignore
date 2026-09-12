@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+.dotnet/
+.dotnet-home/
+.nuget/
+.tools/
+node_modules/
+.vs/
+TestResults/
+artifacts/*.log
+artifacts/browser-profile/
+*.user
